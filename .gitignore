@@ -10,7 +10,6 @@ out/
 build/
 **/build/
 !gradle-wrapper.jar
-.gradle/
 local.properties
 
 # Logs
@@ -52,7 +51,6 @@ obj/
 # Kotlin / Java
 *.kt~
 *.java~
-*.class
 
 # Android Lint
 lint/intermediates/
@@ -69,10 +67,7 @@ lint/tmp/
 .idea/caches/
 
 # CI/CD artifacts
-*.apk
-*.aab
 *.aar
-*.hprof
 *.xcuserdata
 reports/
 
